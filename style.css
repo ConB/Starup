@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ol, ul { list-style: none; }
+
+img { border: none; vertical-align: top; }
+#wrapper{
+    border: 1px solid  #a3a2a3;
+    margin: 20px auto;
+    width: 900px;
+}
+.hleft{
+    float: left;
+}
+.hright{
+    float: right;
+}
+/* Nav */
+#nav{
+    clear: both;
+}
+.hright .Button{
+    margin-bottom: 37px;
+    text-align: right;
+}
+.hright .Button li{
+    display: inline;
+}
+/* .hright ul{
+    padding: 12px 0;
+} */
+.hright .link li{
+    display: inline;
+    border-right: 1px solid black;
+    padding: 0px 5px;
+}
+.hright .link{
+    text-align: right;
+}
+.hright .link li.end{
+    border-right: none;
+    padding-right: 0;
+}
+#header{
+    padding: 10px;
+}
+.hleft h1{
+    margin-bottom: 20px;
+}
+
+/* Nav */
+
+.menu li{
+    display: inline;
+   border-right: 2px solid white;
+   padding: 0 10px;
+}
+.menu{
+    height: 22px;
+    line-height: 22px;
+    padding: 12px 0;
+    border:  1px solid black;
+    background: #7f7979;
+ 
+}
+.menu li a{
+    font-weight: bold;
+    color: white;
+}
+.menu li.end{
+    border-right: none;
+    padding-right: 0;
+}
+
+/* Footer */
+.fleft{
+    float: left;
+    width: 370px;
+}
+.fright{
+    float: right;
+    width: 430px;
+    text-align: right;
+}
+.clear{
+    clear: both;
+    display: block;
+}
+.fmenu li{
+    /* text-align: right; */
+    border-right: 1px solid #333;
+    display: inline;
+    padding: 0 5px;
+}
+#footer{
+    padding: 10px;
+}
+.fmenu li.end{
+    padding-right: 0;
+    border-right: none;
+}.fright p{
+    text-align: right;
+}
+.fright ul{
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+/* Container */
+.content{
+    float: left;
+    width: 620px;
+}
+.sidebar{
+    float: right;
+    width: 240px;
+}
+.content h2{
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+}
+.img{
+    float: left;
+    width: 241px;
+}
+.productr{
+    float: right;
+    width: 350px;
+}
+.list li{
+    padding-right: 8px;
+    display: inline;
+}
+h3{
+    color: #5870e6;
+    margin-bottom: 10px;
+}
+#container{
+    padding: 20px 10px;
+
+}
+.content h2{
+    margin-bottom: 10px;
+}
+.list{
+    background: #f9f8f8;
+    border: 1px solid #ebeaea;
+    clear: both;
+    padding: 10px 25px;
+}
+.content .newp{
+    margin-bottom: 20px;
+}
+
+/* Clear Fix */
+.content .newp{
+    zoom: 1;
+}
+.content .newp::after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/* NEW */
+.news dd{
+    border-bottom: 1px dotted #000; /* tao duong vien ben duoi text */
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.news dd.last{
+    border-bottom: none;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+.news dd a{
+    text-decoration: none;
+}
+.news dd a:hover{
+    text-decoration: underline;
+}
+.list{
+    margin-bottom: 40px;
+}
+.news{
+    padding: 10px 0 40px 10px;
+}
+.banner{
+    text-align: center;
+}
+
+/* sidebar */
+.sidebar h2{
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+.linklist li{
+    margin-bottom: 3px;
+}
+.linklist{
+    padding: 0 0 30px 10px;
+}
+.bannerList{
+    padding-top: 10px;
+}
+.bannerList li{
+    padding-bottom:5px;
+}
+.fas{
+    padding-right: 5px;
+}
